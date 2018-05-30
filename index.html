@@ -1,0 +1,1270 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ChildrenEdu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+    <!-- 引入 Bootstrap -->
+    <link href="./styles/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles/for_index.css" rel="stylesheet">
+    <link href="styles/general.css" rel="stylesheet">
+</head>
+<body>
+<!--loading-->
+<div id="index_loading">
+    <div id="loading_pic1">
+        <img src="./images/loading_1.png" id="#pic_loading1"/>
+    </div>
+    <div id="loading_pic2">
+        <img src="./images/loading_2.png" id="#pic_loading2"/>
+    </div>
+    <div id="loading_pic3">
+        <img src="./images/loading_3.png" id="#pic_loading3"/>
+    </div>
+    <div id="loading_pic4">
+        <img src="./images/loading_4.png" id="#pic_loading4"/>
+    </div>
+    <div id="loading_pic5">
+        <img src="./images/loading_5.png" id="#pic_loading5"/>
+    </div>
+    <div id="loading_pic6">
+        <img src="./images/loading_text.png" id="#pic_loading6"/>
+    </div>
+</div>
+<div class="container" id="index">
+    <!--<div class="col-lg-10 col-lg-offset-1" >-->
+        <!--公司图标-->
+        <div class="col-lg-4 col-lg-offset-8">
+            <img src="./images/icon_nav.png" id="pic_index_icon"/>
+        </div>
+        <!--自定义导航栏-->
+        <div class="container">
+            <img src="./images/index_nav.png" id="pic_index_nav"/>
+            <nav id="nav">
+                <ul>
+                    <li><a href="index.html" class="nav_index" id="index_paopao">首页</a></li>
+                    <li><a href="about.html" class="nav_about">关于我们</a></li>
+                    <li><a href="classes.html" class="nav_classes">课程体系</a></li>
+                    <li><a href="teachers.html" class="nav_teachers">师资力量</a></li>
+                    <li><a href="environment.html" class="nav_environment">校园环境</a></li>
+                    <li><a href="join.html" class="nav_join">加入我们</a></li>
+                </ul>
+                <a href="#myModal" data-toggle="modal"><img src="./images/index_paopao1.png" id="pic_index_paopao1"/></a>
+                <a href="#pic_index_news"><img src="./images/index_paopao2.png" id="pic_index_paopao2"/></a>
+                <a href="#pic_index_pictures"><img src="./images/index_paopao3.png" id="pic_index_paopao3"/></a>
+
+            </nav>
+        </div>
+        <!--轮播图片-->
+        <div id="myCarousel" class="carousel slide">
+            <!-- 轮播（Carousel）指标 -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- 轮播（Carousel）项目 -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="./images/banner1.jpg" alt="First slide" class="img-responsive center-block">
+                </div>
+                <div class="item">
+                    <img src="./images/banner2.jpg" alt="Second slide" class="img-responsive center-block">
+                </div>
+                <div class="item">
+                    <img src="./images/banner3.jpg" alt="Third slide" class="img-responsive center-block">
+                </div>
+            </div>
+            <!-- 轮播（Carousel）导航 -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!--折叠地图-->
+        <img src="./images/index_cloud.png" id="pic_index_cloud"/>
+        <a class="a_map" data-toggle="modal" href="#myModal" id="a_cloud">
+            <span style="font-size: 20px; color: #f39624;">
+                <img src="./images/mapPoint.png" style="position: relative; top: -10px;"/>
+                快速搜索附近校区
+            </span>
+        </a>
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                        <!--<h4 class="modal-title" id="myModalLabel">快速搜索附近校区</h4>-->
+                    </div>
+                    <div class="modal-body">
+                        <img src="./images/index_map.png" id="pic_index_map"/>
+                        <div id="pic_index_wuhan">
+                            <img src="./images/mapPoint.png"/>
+                            <p>武汉</p>
+                        </div>
+                        <div id="pic_index_beijing">
+                            <img src="./images/mapPoint.png"/>
+                            <p>北京</p>
+                        </div>
+                        <div id="pic_index_sz">
+                            <img src="./images/mapPoint.png"/>
+                            <p>深圳</p>
+                        </div>
+                    </div>
+                    <!--<div class="modal-footer">-->
+                        <!--<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+                        <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+                    <!--</div>-->
+                </div>
+            </div>
+        </div>
+        <!--预约电话-->
+        <div style="text-align: center; margin-top: 20px; margin-bottom: 20px;"><img src="./images/index_phone.png" style="width: 300px;"/></div>
+        <!--<h4><img src="./images/phone.png" style="position: relative; top: -10px; margin-bottom: -20px;"/>预约试听400-700-666</h4>-->
+        <!--最新动态-->
+        <div class="index_smallHeader text-center">
+            <img src="./images/index_news.png" id="pic_index_news"/>
+            <h3 style="font-family: '迷你简清韵';">最新动态</h3>
+            <h5 class="page-header"></h5>
+        </div>
+        <div class="container-fluid" id="news">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="panel-group" id="news_accordion1" role="tablist" aria-multiselectable="true">
+                        <div class="panel panel-warning">
+                            <div class="panel-heading" role="tab" id="heading11">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse11"
+                                       aria-expanded="true" aria-controls="collapseOne">
+                                        2018早到到艺智小镇深圳教育展
+                                    </a>
+                                    <a href="news.html" class="glyphicon glyphicon-chevron-right" role="button">详情</a>
+                                </h4>
+                            </div>
+                            <div id="collapse11" class="panel-collapse collapse in" role="tabpanel"
+                                 aria-labelledby="heading11">
+                                <div class="panel-body">
+                                    <img src="./images/news/index_news1.png" style="width: 100%;"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-danger">
+                            <div class="panel-heading" role="tab" id="heading12">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                       href="#collapse12" aria-expanded="false" aria-controls="collapseTwo">
+                                        2018荣获教育...
+                                    </a>
+                                    <a href="#" class="glyphicon glyphicon-chevron-right" role="button">详情</a>
+                                </h4>
+                            </div>
+                            <div id="collapse12" class="panel-collapse collapse" role="tabpanel"
+                                 aria-labelledby="heading12">
+                                <div class="panel-body">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-primary">
+                            <div class="panel-heading" role="tab" id="heading13">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                       href="#collapse13" aria-expanded="false" aria-controls="collapseThree">
+                                        猜猜今年夏天我们去哪？
+                                    </a>
+                                    <a href="#" class="glyphicon glyphicon-chevron-right" role="button">详情</a>
+                                </h4>
+                            </div>
+                            <div id="collapse13" class="panel-collapse collapse" role="tabpanel"
+                                 aria-labelledby="heading13">
+                                <div class="panel-body">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-success">
+                            <div class="panel-heading" role="tab" id="heading14">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                       href="#collapse14" aria-expanded="false" aria-controls="collapseThree">
+                                        早到到出衍生品啦~
+                                    </a>
+                                    <a href="#" class="glyphicon glyphicon-chevron-right" role="button">详情</a>
+                                </h4>
+                            </div>
+                            <div id="collapse14" class="panel-collapse collapse" role="tabpanel"
+                                 aria-labelledby="heading14">
+                                <div class="panel-body">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="panel-group" id="news_accordion2" role="tablist" aria-multiselectable="true">
+                        <div class="panel panel-warning">
+                            <div class="panel-heading" role="tab" id="heading21">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse21"
+                                       aria-expanded="true" aria-controls="collapseOne">
+                                        小小时装设计师发布会
+                                    </a>
+                                    <a href="#" class="glyphicon glyphicon-chevron-right" role="button">详情</a>
+                                </h4>
+                            </div>
+                            <div id="collapse21" class="panel-collapse collapse in" role="tabpanel"
+                                 aria-labelledby="heading21">
+                                <div class="panel-body">
+                                    <img src="./images/news/index_news2.png" style="width: 100%;"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-danger">
+                            <div class="panel-heading" role="tab" id="heading22">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                       href="#collapse22" aria-expanded="false" aria-controls="collapseTwo">
+                                        2018早到到艺智小镇...
+                                    </a>
+                                    <a href="#" class="glyphicon glyphicon-chevron-right" role="button">详情</a>
+                                </h4>
+                            </div>
+                            <div id="collapse22" class="panel-collapse collapse" role="tabpanel"
+                                 aria-labelledby="heading22">
+                                <div class="panel-body">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-primary">
+                            <div class="panel-heading" role="tab" id="heading23">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                       href="#collapse23" aria-expanded="false" aria-controls="collapseThree">
+                                        “古风唐韵遇京都”
+                                    </a>
+                                    <a href="#" class="glyphicon glyphicon-chevron-right" role="button">详情</a>
+                                </h4>
+                            </div>
+                            <div id="collapse23" class="panel-collapse collapse" role="tabpanel"
+                                 aria-labelledby="heading23">
+                                <div class="panel-body">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-success">
+                            <div class="panel-heading" role="tab" id="heading24">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                       href="#collapse24" aria-expanded="false" aria-controls="collapseThree">
+                                        日本动漫游学营
+                                    </a>
+                                    <a href="#" class="glyphicon glyphicon-chevron-right" role="button">详情</a>
+                                </h4>
+                            </div>
+                            <div id="collapse24" class="panel-collapse collapse" role="tabpanel"
+                                 aria-labelledby="heading24">
+                                <div class="panel-body">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="panel-group" id="news_accordion3" role="tablist" aria-multiselectable="true">
+                        <div class="panel panel-warning">
+                            <div class="panel-heading" role="tab" id="heading31">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse31"
+                                       aria-expanded="true" aria-controls="collapseOne">
+                                        2018早到到艺智小镇法国游学
+                                    </a>
+                                    <a href="#" class="glyphicon glyphicon-chevron-right" role="button">详情</a>
+                                </h4>
+                            </div>
+                            <div id="collapse31" class="panel-collapse collapse in" role="tabpanel"
+                                 aria-labelledby="headingOne">
+                                <div class="panel-body">
+                                    <img src="./images/news/index_news3.png" style="width: 100%;"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-danger">
+                            <div class="panel-heading" role="tab" id="heading32">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                       href="#collapse32" aria-expanded="false" aria-controls="collapseTwo">
+                                        东方艺术别样的魅力...
+                                    </a>
+                                    <a href="#" class="glyphicon glyphicon-chevron-right" role="button">详情</a>
+                                </h4>
+                            </div>
+                            <div id="collapse32" class="panel-collapse collapse" role="tabpanel"
+                                 aria-labelledby="headingTwo">
+                                <div class="panel-body">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-primary">
+                            <div class="panel-heading" role="tab" id="heading33">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                       href="#collapse33" aria-expanded="false" aria-controls="collapseThree">
+                                        “哆啦A梦的时光机”
+                                    </a>
+                                    <a href="#" class="glyphicon glyphicon-chevron-right" role="button">详情</a>
+                                </h4>
+                            </div>
+                            <div id="collapse33" class="panel-collapse collapse" role="tabpanel"
+                                 aria-labelledby="headingThree">
+                                <div class="panel-body">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-success">
+                            <div class="panel-heading" role="tab" id="heading34">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                       href="#collapse34" aria-expanded="false" aria-controls="collapseThree">
+                                        “文艺小城拾光纪”
+                                    </a>
+                                    <a href="#" class="glyphicon glyphicon-chevron-right" role="button">详情</a>
+                                </h4>
+                            </div>
+                            <div id="collapse34" class="panel-collapse collapse" role="tabpanel"
+                                 aria-labelledby="headingThree">
+                                <div class="panel-body">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--作品墙-->
+        <div class="index_smallHeader text-center">
+            <img src="./images/index_pictures.png" id="pic_index_pictures"/>
+            <h3 style="font-family: '迷你简清韵';">作品墙</h3>
+            <h5 class="page-header"></h5>
+        </div>
+        <!--<iframe src="photowall.html"></iframe>-->
+        <ul id="myTab" class="nav nav-pills">
+            <li class="active"><a href="#huihua" data-toggle="tab">绘画</a></li>
+            <li><a href="#dongman" data-toggle="tab">动漫</a></li>
+            <li><a href="#diaosu" data-toggle="tab">雕塑</a></li>
+            <li><a href="#shufa" data-toggle="tab">书法</a></li>
+            <li><a href="#fuzhuangsheji" data-toggle="tab">服装设计</a></li>
+            <li><a href="#zhuangzhi" data-toggle="tab">装置</a></li>
+            <li class="dropdown">
+                <a href="#" id="myTabDrop1" class="dropdown-toggle" data-toggle="dropdown">更多
+                    <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="myTabDrop1">
+                    <li><a href="#hongbei" tabindex="-1" data-toggle="tab">烘焙</a></li>
+                    <li><a href="#huayi" tabindex="-1" data-toggle="tab">花艺</a></li>
+                    <li><a href="#vr" tabindex="-1" data-toggle="tab">VR</a></li>
+                    <li><a href="#3Ddayin" tabindex="-1" data-toggle="tab">3D打印</a></li>
+                </ul>
+            </li>
+            <li id="li_search">
+                <input type="text" class="form-control glyphicon glyphicon-search" style="width: 200px">
+            </li>
+            <li style="margin-left: 2px"><a href="#searchModal" data-toggle="modal" class="btn glyphicon glyphicon-search" id="a_search" role="button"></a></li>
+        </ul>
+        <div id="myTabContent" class="tab-content">
+            <div class="tab-pane fade in active" id="huihua">
+                <div class="container-fluid photos-wall">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="imageBox">
+                                <img src="./images/huihua/点点的魅力.jpg" alt="Second slide"
+                                     class="img-responsive center-block">
+                                <div class="photo-description">
+                                    <div class="caption">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <img src="./images/index_touxiang.png"/>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <h4>点点的魅力</h4>
+                                                <p>鄢冬妮</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-right">
+                                            <div class="col-lg-12">
+                                                <a onclick="love_label(this)" class="btn btn-danger glyphicon glyphicon-heart" role="button"></a>
+                                                <span id="love_number" class="badge alert-danger">4</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="imageBox">
+                                <img src="./images/huihua/大师头像重组.jpg" alt="Second slide"
+                                     class="img-responsive center-block">
+                                <div class="photo-description">
+                                    <div class="caption">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <img src="./images/index_touxiang.png"/>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <h4>大师头像重组</h4>
+                                                <p>鄢冬妮</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-right">
+                                            <div class="col-lg-12">
+                                                <a href="#" class="btn btn-danger glyphicon glyphicon-heart" role="button"></a>
+                                                <span class="badge alert-danger">4</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="imageBox">
+                                <img src="./images/huihua/放星星的羊.jpg" alt="Second slide"
+                                     class="img-responsive center-block">
+                                <div class="photo-description">
+                                    <div class="caption">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <img src="./images/index_touxiang.png"/>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <h4>放星星的羊</h4>
+                                                <p>鄢冬妮</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-right">
+                                            <div class="col-lg-12">
+                                                <a href="#" class="btn btn-danger glyphicon glyphicon-heart" role="button"></a>
+                                                <span class="badge alert-danger">4</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="imageBox">
+                                <img src="./images/huihua/鲤鱼旗.jpg" alt="Second slide"
+                                     class="img-responsive center-block">
+                                <div class="photo-description">
+                                    <div class="caption">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <img src="./images/index_touxiang.png"/>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <h4>鲤鱼旗</h4>
+                                                <p>鄢冬妮</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-right">
+                                            <div class="col-lg-12">
+                                                <a href="#" class="btn btn-danger glyphicon glyphicon-heart" role="button"></a>
+                                                <span class="badge alert-danger">4</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="imageBox">
+                                <img src="./images/huihua/太空旅行.jpg" alt="Second slide"
+                                     class="img-responsive center-block">
+                                <div class="photo-description">
+                                    <div class="caption">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <img src="./images/index_touxiang.png"/>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <h4>太空旅行</h4>
+                                                <p>鄢冬妮</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-right">
+                                            <div class="col-lg-12">
+                                                <a href="#" class="btn btn-danger glyphicon glyphicon-heart" role="button"></a>
+                                                <span class="badge alert-danger">4</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="imageBox">
+                                <img src="./images/huihua/梵高的小屋.jpg" alt="Second slide"
+                                     class="img-responsive center-block">
+                                <div class="photo-description">
+                                    <div class="caption">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <img src="./images/index_touxiang.png"/>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <h4>梵高的小屋</h4>
+                                                <p>鄢冬妮</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-right">
+                                            <div class="col-lg-12">
+                                                <a href="#" class="btn btn-danger glyphicon glyphicon-heart" role="button"></a>
+                                                <span class="badge alert-danger">4</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="imageBox">
+                                <img src="./images/huihua/奇妙的椅子.jpg" alt="Second slide"
+                                     class="img-responsive center-block">
+                                <div class="photo-description">
+                                    <div class="caption">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <img src="./images/index_touxiang.png"/>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <h4>奇妙的椅子</h4>
+                                                <p>鄢冬妮</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-right">
+                                            <div class="col-lg-12">
+                                                <a href="#" class="btn btn-danger glyphicon glyphicon-heart" role="button"></a>
+                                                <span class="badge alert-danger">4</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="imageBox">
+                                <img src="./images/huihua/报纸灯.jpg" alt="Second slide"
+                                     class="img-responsive center-block">
+                                <div class="photo-description">
+                                    <div class="caption">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <img src="./images/index_touxiang.png"/>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <h4>报纸灯</h4>
+                                                <p>鄢冬妮</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-right">
+                                            <div class="col-lg-12">
+                                                <a href="#" class="btn btn-danger glyphicon glyphicon-heart" role="button"></a>
+                                                <span class="badge alert-danger">4</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="imageBox">
+                                <img src="./images/huihua/小小摄影师.jpg" alt="Second slide"
+                                     class="img-responsive center-block">
+                                <div class="photo-description">
+                                    <div class="caption">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <img src="./images/index_touxiang.png"/>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <h4>小小摄影师</h4>
+                                                <p>鄢冬妮</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-right">
+                                            <div class="col-lg-12">
+                                                <a href="#" class="btn btn-danger glyphicon glyphicon-heart" role="button"></a>
+                                                <span class="badge alert-danger">4</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="dongman">
+                <div class="container-fluid photos-wall">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="imageBox">
+                                <img src="./images/dongman/1.jpg" alt="Second slide"
+                                     class="img-responsive center-block">
+                                <div class="photo-description">
+                                    <div class="caption">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <img src="./images/index_touxiang.png"/>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <h4>麋鹿</h4>
+                                                <p>鄢冬妮</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-right">
+                                            <div class="col-lg-12">
+                                                <a class="btn btn-danger glyphicon glyphicon-heart" role="button"></a>
+                                                <span class="badge alert-danger">4</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="imageBox">
+                                <img src="./images/dongman/2.jpg" alt="Second slide"
+                                     class="img-responsive center-block">
+                                <div class="photo-description">
+                                    <div class="caption">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <img src="./images/index_touxiang.png"/>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <h4>长颈鹿</h4>
+                                                <p>鄢冬妮</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-right">
+                                            <div class="col-lg-12">
+                                                <a href="#" class="btn btn-danger glyphicon glyphicon-heart" role="button"></a>
+                                                <span class="badge alert-danger">4</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="imageBox">
+                                <img src="./images/dongman/3.png" alt="Second slide"
+                                     class="img-responsive center-block">
+                                <div class="photo-description">
+                                    <div class="caption">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <img src="./images/index_touxiang.png"/>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <h4>大角鹿</h4>
+                                                <p>鄢冬妮</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-right">
+                                            <div class="col-lg-12">
+                                                <a href="#" class="btn btn-danger glyphicon glyphicon-heart" role="button"></a>
+                                                <span class="badge alert-danger">4</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="imageBox">
+                                <img src="./images/dongman/4.jpg" alt="Second slide"
+                                     class="img-responsive center-block">
+                                <div class="photo-description">
+                                    <div class="caption">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <img src="./images/index_touxiang.png"/>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <h4>星夜</h4>
+                                                <p>鄢冬妮</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-right">
+                                            <div class="col-lg-12">
+                                                <a href="#" class="btn btn-danger glyphicon glyphicon-heart" role="button"></a>
+                                                <span class="badge alert-danger">4</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="imageBox">
+                                <img src="./images/dongman/5.jpg" alt="Second slide"
+                                     class="img-responsive center-block">
+                                <div class="photo-description">
+                                    <div class="caption">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <img src="./images/index_touxiang.png"/>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <h4>机器人</h4>
+                                                <p>鄢冬妮</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-right">
+                                            <div class="col-lg-12">
+                                                <a href="#" class="btn btn-danger glyphicon glyphicon-heart" role="button"></a>
+                                                <span class="badge alert-danger">4</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="imageBox">
+                                <img src="./images/dongman/6.jpg" alt="Second slide"
+                                     class="img-responsive center-block">
+                                <div class="photo-description">
+                                    <div class="caption">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <img src="./images/index_touxiang.png"/>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <h4>劳拉1</h4>
+                                                <p>鄢冬妮</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-right">
+                                            <div class="col-lg-12">
+                                                <a href="#" class="btn btn-danger glyphicon glyphicon-heart" role="button"></a>
+                                                <span class="badge alert-danger">4</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="imageBox">
+                                <img src="./images/dongman/7.jpg" alt="Second slide"
+                                     class="img-responsive center-block">
+                                <div class="photo-description">
+                                    <div class="caption">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <img src="./images/index_touxiang.png"/>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <h4>劳拉2</h4>
+                                                <p>鄢冬妮</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-right">
+                                            <div class="col-lg-12">
+                                                <a href="#" class="btn btn-danger glyphicon glyphicon-heart" role="button"></a>
+                                                <span class="badge alert-danger">4</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="imageBox">
+                                <img src="./images/dongman/8.jpg" alt="Second slide"
+                                     class="img-responsive center-block">
+                                <div class="photo-description">
+                                    <div class="caption">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <img src="./images/index_touxiang.png"/>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <h4>劳拉3</h4>
+                                                <p>鄢冬妮</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-right">
+                                            <div class="col-lg-12">
+                                                <a href="#" class="btn btn-danger glyphicon glyphicon-heart" role="button"></a>
+                                                <span class="badge alert-danger">4</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="diaosu">
+                <div class="container-fluid photos-wall">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="imageBox">
+                                <img src="./images/diaosu/1.jpg" alt="Second slide"
+                                     class="img-responsive center-block">
+                                <div class="photo-description">
+                                    <div class="caption">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <img src="./images/index_touxiang.png"/>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <h4>气球</h4>
+                                                <p>鄢冬妮</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-right">
+                                            <div class="col-lg-12">
+                                                <a class="btn btn-danger glyphicon glyphicon-heart" role="button"></a>
+                                                <span class="badge alert-danger">4</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="imageBox">
+                                <img src="./images/diaosu/2.jpg" alt="Second slide"
+                                     class="img-responsive center-block">
+                                <div class="photo-description">
+                                    <div class="caption">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <img src="./images/index_touxiang.png"/>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <h4>恐龙</h4>
+                                                <p>鄢冬妮</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-right">
+                                            <div class="col-lg-12">
+                                                <a href="#" class="btn btn-danger glyphicon glyphicon-heart" role="button"></a>
+                                                <span class="badge alert-danger">4</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="imageBox">
+                                <img src="./images/diaosu/3.jpg" alt="Second slide"
+                                     class="img-responsive center-block">
+                                <div class="photo-description">
+                                    <div class="caption">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <img src="./images/index_touxiang.png"/>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <h4>龙</h4>
+                                                <p>鄢冬妮</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-right">
+                                            <div class="col-lg-12">
+                                                <a href="#" class="btn btn-danger glyphicon glyphicon-heart" role="button"></a>
+                                                <span class="badge alert-danger">4</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="imageBox">
+                                <img src="./images/diaosu/4.jpg" alt="Second slide"
+                                     class="img-responsive center-block">
+                                <div class="photo-description">
+                                    <div class="caption">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <img src="./images/index_touxiang.png"/>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <h4>狮子（泥塑）</h4>
+                                                <p>鄢冬妮</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-right">
+                                            <div class="col-lg-12">
+                                                <a href="#" class="btn btn-danger glyphicon glyphicon-heart" role="button"></a>
+                                                <span class="badge alert-danger">4</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="imageBox">
+                                <img src="./images/diaosu/5.jpg" alt="Second slide"
+                                     class="img-responsive center-block">
+                                <div class="photo-description">
+                                    <div class="caption">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <img src="./images/index_touxiang.png"/>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <h4>斑点狗</h4>
+                                                <p>鄢冬妮</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-right">
+                                            <div class="col-lg-12">
+                                                <a href="#" class="btn btn-danger glyphicon glyphicon-heart" role="button"></a>
+                                                <span class="badge alert-danger">4</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="imageBox">
+                                <img src="./images/diaosu/6.jpg" alt="Second slide"
+                                     class="img-responsive center-block">
+                                <div class="photo-description">
+                                    <div class="caption">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <img src="./images/index_touxiang.png"/>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <h4>花园</h4>
+                                                <p>鄢冬妮</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-right">
+                                            <div class="col-lg-12">
+                                                <a href="#" class="btn btn-danger glyphicon glyphicon-heart" role="button"></a>
+                                                <span class="badge alert-danger">4</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="imageBox">
+                                <img src="./images/diaosu/7.jpg" alt="Second slide"
+                                     class="img-responsive center-block">
+                                <div class="photo-description">
+                                    <div class="caption">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <img src="./images/index_touxiang.png"/>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <h4>彩虹城</h4>
+                                                <p>鄢冬妮</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-right">
+                                            <div class="col-lg-12">
+                                                <a href="#" class="btn btn-danger glyphicon glyphicon-heart" role="button"></a>
+                                                <span class="badge alert-danger">4</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="imageBox">
+                                <img src="./images/diaosu/8.jpg" alt="Second slide"
+                                     class="img-responsive center-block">
+                                <div class="photo-description">
+                                    <div class="caption">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <img src="./images/index_touxiang.png"/>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <h4>陶器</h4>
+                                                <p>鄢冬妮</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-right">
+                                            <div class="col-lg-12">
+                                                <a href="#" class="btn btn-danger glyphicon glyphicon-heart" role="button"></a>
+                                                <span class="badge alert-danger">4</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="shufa">
+                <p>扩展性和强大企业级应用程序的开发架构，部署在兼容应用程序服务器（比如 JBOSS、Web Logic 等）的 J2EE 上。
+                </p>
+            </div>
+            <div class="tab-pane fade" id="fuzhuangsheji">
+                <p>Enterprise Java Bea序的开发架构，部署在兼容应用程序服务器（比如 JBOSS、Web Logic 等）的 J2EE 上。
+                </p>
+            </div>
+            <div class="tab-pane fade" id="hongbei">
+                <div class="container-fluid photos-wall">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="imageBox">
+                                <img src="./images/hongbei/1.jpg" alt="Second slide"
+                                     class="img-responsive center-block">
+                                <div class="photo-description">
+                                    <div class="caption">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <img src="./images/index_touxiang.png"/>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <h4>冰淇淋蛋糕</h4>
+                                                <p>鄢冬妮</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-right">
+                                            <div class="col-lg-12">
+                                                <a href="#" class="btn btn-danger glyphicon glyphicon-heart" role="button"></a>
+                                                <span class="badge alert-danger">4</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="imageBox">
+                                <img src="./images/hongbei/3.jpg" alt="Second slide"
+                                     class="img-responsive center-block">
+                                <div class="photo-description">
+                                    <div class="caption">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <img src="./images/index_touxiang.png"/>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <h4>水果蜗牛</h4>
+                                                <p>鄢冬妮</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-right">
+                                            <div class="col-lg-12">
+                                                <a href="#" class="btn btn-danger glyphicon glyphicon-heart" role="button"></a>
+                                                <span class="badge alert-danger">4</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="imageBox">
+                                <img src="./images/hongbei/2.jpg" alt="Second slide"
+                                     class="img-responsive center-block">
+                                <div class="photo-description">
+                                    <div class="caption">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <img src="./images/index_touxiang.png"/>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <h4>冰淇淋</h4>
+                                                <p>鄢冬妮</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-right">
+                                            <div class="col-lg-12">
+                                                <a href="#" class="btn btn-danger glyphicon glyphicon-heart" role="button"></a>
+                                                <span class="badge alert-danger">4</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="imageBox">
+                                <img src="./images/hongbei/5.jpg" alt="Second slide"
+                                     class="img-responsive center-block">
+                                <div class="photo-description">
+                                    <div class="caption">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <img src="./images/index_touxiang.png"/>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <h4>奥利奥蛋糕</h4>
+                                                <p>鄢冬妮</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-right">
+                                            <div class="col-lg-12">
+                                                <a href="#" class="btn btn-danger glyphicon glyphicon-heart" role="button"></a>
+                                                <span class="badge alert-danger">4</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="imageBox">
+                                <img src="./images/hongbei/6.jpg" alt="Second slide"
+                                     class="img-responsive center-block">
+                                <div class="photo-description">
+                                    <div class="caption">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <img src="./images/index_touxiang.png"/>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <h4>迷你汉堡</h4>
+                                                <p>鄢冬妮</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-right">
+                                            <div class="col-lg-12">
+                                                <a href="#" class="btn btn-danger glyphicon glyphicon-heart" role="button"></a>
+                                                <span class="badge alert-danger">4</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="imageBox">
+                                <img src="./images/hongbei/4.jpg" alt="Second slide"
+                                     class="img-responsive center-block">
+                                <div class="photo-description">
+                                    <div class="caption">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <img src="./images/index_touxiang.png"/>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <h4>拐杖糖饼干</h4>
+                                                <p>鄢冬妮</p>
+                                            </div>
+                                        </div>
+                                        <div class="row text-right">
+                                            <div class="col-lg-12">
+                                                <a href="#" class="btn btn-danger glyphicon glyphicon-heart" role="button"></a>
+                                                <span class="badge alert-danger">4</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="huayi">
+                <p>Enterprise Java Beans（EJB）是一个创程序服务器（比如 JBOSS、Web Logic 等）的 J2EE 上。
+                </p>
+            </div>
+            <div class="tab-pane fade" id="vr">
+                <p>Enterprise Java Beans（EJB）是一个创程序服务器（比如 JBOSS、Web Logic 等）的 J2EE 上。
+                </p>
+            </div>
+            <div class="tab-pane fade" id="3Ddayin">
+                <p>Enterprise Java Beans（EJB）是一个创程序服务器（比如 JBOSS、Web Logic 等）的 J2EE 上。
+                </p>
+            </div>
+            <div class="tab-pane fade" id="zhuangzhi">
+                <p>Enterprise Java Beans（EJB）是一个创程序服务器（比如 JBOSS、Web Logic 等）的 J2EE 上。
+                </p>
+            </div>
+        </div>
+        <div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document" style="width: 500px">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel" style="color: #f6ad3c">梵高的小屋<span> 鄢冬妮</span></h4>
+                    </div>
+                    <div class="modal-body">
+                        <img src="./images/huihua/梵高的小屋.jpg" id="search_pic_fgdxw"/>
+
+                    </div>
+                    <!--<div class="modal-footer">-->
+                    <!--<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+                    <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+                    <!--</div>-->
+                </div>
+            </div>
+        </div>
+        <!--页脚-->
+        <div class="col-lg-10 col-lg-offset-1 text-center" id="footer">
+            <img src="./images/index_foot_tel.png"/>
+            <h5 class="page-header"></h5>
+            <div class="row">
+                <div class="col-lg-4">
+                    <p>蕃茄田艺术青少年学院</p>
+                    <p>touchBOX小创客</p>
+                    <p>PlayABC少儿英语</p>
+                    <p>芬兰Arkki儿童与青少年建筑学校</p>
+                    <p>美国芝加哥哥伦比亚学院艺术合作发展中心</p>
+                    <p>俄罗斯艾尔米塔什博物馆</p>
+                </div>
+                <div class="col-lg-4">
+                    <p>上海当代艺术博物馆</p>
+                    <p>震旦博物馆</p>
+                    <p>中央美术学院美术馆</p>
+                    <p>MOMA纽约现代艺术博物馆</p>
+                    <p>纽约古根汉姆美术馆</p>
+                    <p>联合国教科文组织国际艺术教育协会</p>
+                </div>
+                <div class="col-lg-4">
+                    <p>纽约大都会艺术博物馆</p>
+                    <p>大英博物馆</p>
+                    <p>伦敦泰特现代艺术馆</p>
+                    <p>巴塞罗那现代艺术博物馆</p>
+                    <p>法国罗浮宫</p>
+                    <p>全美艺术教育协会</p>
+                </div>
+            </div>
+            <h5 class="page-header"></h5>
+            <p>公司地址：湖北省武汉市江岸区后湖大道城市广场60号 邮编:430000 电话：400-700-666</p>
+            <h5 class="page-header"></h5>
+            <p style="color: #f5ad40;">儿童艺术 · 少儿美术 · 加盟 · steam · 幼儿教育</p>
+        </div>
+    <!--</div>-->
+</div><!-- whole -->
+
+<script>
+    function love_label(x){
+        //方法暂定，无法解决节点获取问题
+        var span = document.getElementById("love_number");
+        var heart = document.createElement("div");
+        $(heart).addClass("glyphicon");
+        $(heart).addClass("glyphicon-heart");
+        $(heart).css({
+            "position":"absolute",
+            "top":"9px",
+            "left":"9px",
+            "opacity":"1",
+            "transition":"top 1s ease 0s, left 0.6s ease 0s, opacity 0.6s ease 0s",
+            "-webkit-transition":"top 1s ease 0s, left 0.6s ease 0s, opacity 0.6s ease 0s"
+        });
+        x.append(heart);
+        $(heart).animate({left:"18px",top:"0"});
+        $(heart).animate({opacity:"0"});
+        setTimeout(function () {
+            $(heart).remove();
+        },1000);
+        var number = parseInt(span.innerHTML);
+        number++;
+        span.innerHTML = number.toString();
+    }
+</script>
+<!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
+<script src="./scripts/jQuery.js"></script>
+<!-- 包括所有已编译的插件 -->
+<script src="./scripts/bootstrap.min.js"></script>
+<script src="scripts/for_index.js"></script>
+<script src="scripts/general.js"></script>
+</body>
+</html>

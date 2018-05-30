@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ChildrenEdu</title>
+    <meta >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+    <!-- 引入 Bootstrap -->
+    <link href="./styles/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles/for_join.css" rel="stylesheet">
+    <link href="styles/general.css" rel="stylesheet">
+    <link href="styles/ladda.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container"  id="join">
+    <!--<div class="col-lg-10 col-lg-offset-1">-->
+        <!--公司图标-->
+        <div class="col-lg-4 col-lg-offset-8">
+            <img src="./images/icon_nav.png" id="pic_index_icon"/>
+        </div>
+        <!--自定义导航栏-->
+        <div class="container">
+            <img src="./images/index_nav.png" id="pic_index_nav"/>
+            <nav id="nav">
+                <ul>
+                    <li><a href="index.html" class="nav_index">首页</a></li>
+                    <li><a href="about.html" class="nav_about">关于我们</a></li>
+                    <li><a href="classes.html" class="nav_classes">课程体系</a></li>
+                    <li><a href="teachers.html" class="nav_teachers">师资力量</a></li>
+                    <li><a href="environment.html" class="nav_environment">校园环境</a></li>
+                    <li><a href="join.html" class="nav_join">加入我们</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!--页面内容-->
+        <div class="row">
+            <div class="col-lg-4 col-lg-offset-4 text-center" id="fadein_leaf">
+                <img src="./images/join_leaf.png" id="pic_join_leaf"/>
+                <h2 style="font-family: '迷你简稚艺';">加入我们</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 text-center">
+                <h5 class="page-header" id="breakline1"></h5>
+                <div class="row">
+                    <div class="col-lg-6 col-lg-offset-3 text-left" id="rotate_p1">
+                        <h4 style="font-family: '迷你简稚艺'; line-height: 25px;color: white">欢迎您关注早到到艺术连锁加盟事业，忠心感谢你对早到到艺术的
+                            信任和厚爱，为了保证我们能够及时、准确地为您提供相关加盟的
+                            咨询和服务，希望您能真实完整地填写下面的申请信息。如果信
+                            息不完整，我们将很遗憾无法受理。
+                        </h4>
+                    </div>
+                </div>
+                <h5 class="page-header" id="breakline2"></h5>
+            </div>
+        </div>
+        <h3 class="text-center" style="font-family: '迷你简稚艺'; color: #f5e74a" id="rotate_h1">加盟流程</h3>
+        <div id="rotate_pic1">
+            <img src="./images/join_method.png" class="center-block" id="pic_join_method"/>
+        </div>
+        <!--申请信息表-->
+        <div class="row" style="margin-bottom: 30px">
+            <div class="col-lg-10 col-lg-offset-1" id="join_form">
+                <form id="form_info">
+                    <h4 class="text-center" style="font-family: '迷你简稚艺'; margin: 25px 0;color: white" id="rotate_h2">申请信息</h4>
+                    <h5 class="page-header" id="breakline3"></h5>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="form-group" id="rotate_form1">
+                                    <div class="col-lg-3">
+                                        <label for="exampleInputCity">申请城市</label>
+                                    </div>
+                                    <div class="col-lg-9">
+                                        <input type="text" class="form-control" id="exampleInputCity" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group"  id="rotate_form3">
+                                    <div class="col-lg-3">
+                                        <label for="exampleInputTime">联系时间</label>
+                                    </div>
+                                    <div class="col-lg-9">
+                                        <input type="text" class="form-control" id="exampleInputTime" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group"  id="rotate_form5">
+                                    <div class="col-lg-3">
+                                        <label for="exampleInputName">姓名</label>
+                                    </div>
+                                    <div class="col-lg-9">
+                                        <input type="text" class="form-control" id="exampleInputName" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group"  id="rotate_form6">
+                                    <div class="col-lg-3">
+                                        <label for="exampleInputBirthday">出生日期</label>
+                                    </div>
+                                    <div class="col-lg-9">
+                                        <input type="text" class="form-control" id="exampleInputBirthday" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group"  id="rotate_form7">
+                                    <div class="col-lg-3">
+                                        <label for="exampleInputTel">手机</label>
+                                    </div>
+                                    <div class="col-lg-9">
+                                        <input type="text" class="form-control" id="exampleInputTel" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="form-group" id="rotate_form2">
+                                    <div class="col-lg-3">
+                                        <label for="exampleInputSex">性别</label>
+                                    </div>
+                                    <div class="col-lg-9">
+                                        <input type="text" class="form-control" id="exampleInputSex" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group" id="rotate_form4">
+                                    <div class="col-lg-3">
+                                        <label for="exampleInputEmail">邮箱</label>
+                                    </div>
+                                    <div class="col-lg-9">
+                                        <input type="email" class="form-control" id="exampleInputEmail" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group" id="inputHowToPath">
+                                <label for="exampleInputHow">您是如何获悉我司特许的招商信息的？</label>
+                                <div class="row">
+                                    <div class="col-lg-9 col-lg-offset-3">
+                                        <input type="text" class="form-control" id="exampleInputHow" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group" id="inputPath">
+                                    <div class="col-lg-3">
+                                        <label for="exampleInputPath">获悉途径</label>
+                                    </div>
+                                    <div class="col-lg-9">
+                                        <input type="text" class="form-control" id="exampleInputPath" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-lg-12" id="inputDetail">
+                            <label for="exampleInputDetail">投入该项目的预算资金(万元|￥)以及自我介绍(学习，工作，投资经历及其他优势等)</label>
+                            <textarea class="form-control" id="exampleInputDetail" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-success btn-lg center-block" style="font-family: '迷你简稚艺';" id="rotate_button">确认提交</button>
+                    <!--使button的下边距生效-->
+                    <h1></h1>
+                </form>
+            </div>
+        </div>
+    <!--</div>-->
+</div><!-- whole -->
+
+<!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
+<script src="./scripts/jQuery.js"></script>
+<!-- 包括所有已编译的插件 -->
+<script src="./scripts/bootstrap.min.js"></script>
+<script src="scripts/for_join.js"></script>
+<script src="scripts/general.js"></script>
+</body>
+</html>

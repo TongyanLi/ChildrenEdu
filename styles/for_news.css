@@ -1,0 +1,26 @@
+#news{
+    margin-bottom: 70px;
+    background-color: rgba(255,255,255,.67);
+    box-shadow: 0 0 30px #bdbdbd;
+}
+#news_content{
+    margin-top: 120px;
+}
+.page-header{
+    margin: 0;
+    padding: -10px 0;
+    border-bottom-color: black;
+}
+img{
+    width: 286px;
+}
+.news_h{
+    margin-top: 20px;
+}
+#news_content h3{
+    font-family: '迷你简稚艺';
+    color: #f6ad3c;
+}
+p{
+    font-family: "微软雅黑";
+}

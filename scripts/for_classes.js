@@ -1,0 +1,15 @@
+jQuery(document).ready(function(){
+    $('#fadein_book').css("opacity","1");
+    $('#fallen_h1').css({"top":"0","opacity":"1"});
+    $('#fallen_pic1').css({"top":"0","opacity":"1"});
+    $('#breakline1').css({"top":"0","opacity":"1"});
+    $('#fallen_p1').css({"top":"0","opacity":"1"});
+    $('#fallen_p2').css({"top":"0","opacity":"1"});
+    $('#breakline2').css({"top":"0","opacity":"1"});
+    $('#fallen_h2').css({"top":"0","opacity":"1"});
+    $('#fallen_pic2').css({"top":"0","opacity":"1"});
+    $('#breakline3').css({"top":"0","opacity":"1"});
+    $('#fallen_h3').css({"top":"0","opacity":"1"});
+    $('#classTab').css({"top":"0","opacity":"1"});
+    $('#classTabContent').css({"top":"0","opacity":"1"});
+});

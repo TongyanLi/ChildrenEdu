@@ -1,0 +1,25 @@
+jQuery(document).ready(function(){
+    $('#fadein_leaf').css("opacity","1");
+    $('#breakline1').css({"transform":"rotateY(0deg)","opacity":"1"});
+    $('#rotate_p1').css({"transform":"rotateY(0deg)","opacity":"1"});
+    $('#breakline2').css({"transform":"rotateY(0deg)","opacity":"1"});
+    $('#rotate_h1').css({"transform":"rotateX(0deg)","opacity":"1"});
+    $('#rotate_pic1').css({"transform":"rotateX(0deg)","opacity":"1"});
+    $('#join_form').css("opacity","1");
+    $('#rotate_h2').css({"transform":"rotateX(0deg)","opacity":"1"});
+    $('#breakline3').css("opacity","1");
+    $('#rotate_form1').css({"transform":"rotateX(0deg)","opacity":"1"});
+    $('#rotate_form2').css({"transform":"rotateX(0deg)","opacity":"1"});
+    $('#rotate_form3').css({"transform":"rotateX(0deg)","opacity":"1"});
+    $('#rotate_form4').css({"transform":"rotateX(0deg)","opacity":"1"});
+    $('#rotate_form5').css({"transform":"rotateX(0deg)","opacity":"1"});
+    $('#inputHowToPath').css({"transform":"rotateX(0deg)","opacity":"1"});
+    $('#rotate_form6').css({"transform":"rotateX(0deg)","opacity":"1"});
+    $('#rotate_form7').css({"transform":"rotateX(0deg)","opacity":"1"});
+    $('#inputPath').css({"transform":"rotateX(0deg)","opacity":"1"});
+    $('#inputDetail').css({"transform":"rotateX(0deg)","opacity":"1"});
+    $('#rotate_button').css({"transform":"rotateX(0deg)","opacity":"1"});
+    $('form').on('submit', function (e) {
+        e.preventDefault()
+    });
+});

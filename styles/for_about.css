@@ -1,0 +1,94 @@
+#about{
+    position: relative;
+    background-color: rgba(255, 159, 29, 0.67);
+    box-shadow: 10px 10px 50px #bdbdbd;
+}
+/*#navbar-icon{*/
+    /*display: block;*/
+    /*max-width: 100%;*/
+    /*height: 25px;*/
+/*}*/
+#pic_about_apple{
+    margin-top: 20px;
+    width: 30%;
+}
+#pic_about_icon{
+    width: 67%;
+    position: relative;
+    transform: translateX(20%) translateY(110%);
+}
+#pic_about_footer{
+    margin-top: 100px;
+    width: 100%;
+}
+#breakline1{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    position: relative;
+    left: 60px;
+    opacity: 0;
+    transition: left 1s ease-in-out 1.1s, opacity 0.5s ease-in-out 1.1s;
+    -webkit-transition: left 1s ease-in-out 1.1s, opacity 0.5s ease-in-out 1.1s;
+}
+#breakline2{
+    margin-top: 0px;
+    margin-bottom: 50px;
+    position: relative;
+    left: 60px;
+    opacity: 0;
+    transition: left 1s ease-in-out 1.3s, opacity 0.5s ease-in-out 1.3s;
+    -webkit-transition: left 1s ease-in-out 1.3s, opacity 0.5s ease-in-out 1.3s;
+}
+#breakline3{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    position: relative;
+    left: 60px;
+    opacity: 0;
+    transition: left 1s ease-in-out 1.5s, opacity 0.5s ease-in-out 1.5s;
+    -webkit-transition: left 1s ease-in-out 1.5s, opacity 0.5s ease-in-out 1.5s;
+}
+h4{
+    line-height: 26px;
+}
+
+/*入场动画*/
+#fadein_apple{
+    opacity: 0;
+    transition: opacity 1.5s ease-out;
+    -webkit-transition: opacity 1.5s ease-out;
+}
+#fadein_icon{
+    opacity: 0;
+    transition: opacity 1.5s ease-out 0.5s;
+    -webkit-transition: opacity 1.5s ease-out 0.5s;
+}
+#slide_h1{
+    position: relative;
+    left: 60px;
+    opacity: 0;
+    transition: left 1s ease-in-out 1s, opacity 0.5s ease-in-out 1s;
+    -webkit-transition: left 1s ease-in-out 1s, opacity 0.5s ease-in-out 1s;
+}
+#slide_p1{
+    position: relative;
+    left: 60px;
+    opacity: 0;
+    transition: left 1s ease-in-out 1.2s, opacity 0.5s ease-in-out 1.2s;
+    -webkit-transition: left 1s ease-in-out 1.2s, opacity 0.5s ease-in-out 1.2s;
+}
+#slide_h2{
+    position: relative;
+    left: 60px;
+    opacity: 0;
+    transition: left 1s ease-in-out 1.4s, opacity 0.5s ease-in-out 1.4s;
+    -webkit-transition: left 1s ease-in-out 1.4s, opacity 0.5s ease-in-out 1.4s;
+}
+#slide_p2{
+    position: relative;
+    left: 60px;
+    opacity: 0;
+    transition: left 1s ease-in-out 1.6s, opacity 0.5s ease-in-out 1.6s;
+    -webkit-transition: left 1s ease-in-out 1.6s, opacity 0.5s ease-in-out 1.6s;
+}
+

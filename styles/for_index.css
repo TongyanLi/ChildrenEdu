@@ -1,0 +1,300 @@
+#index{
+    margin-bottom: 70px;
+    position: relative;
+    background-color: rgba(255,255,255,.67);
+    box-shadow: 0 0 30px #bdbdbd;
+}
+.photos-wall .col-lg-3{
+    margin: 0;
+    padding: 0;
+}
+/*#navbar-icon{*/
+    /*display: block;*/
+    /*max-width: 100%;*/
+    /*height: 25px;*/
+/*}*/
+.imageBox{
+    border-radius: 25px;
+    margin: 10px;
+    box-shadow: 2px 2px 5px 1px #bdbdbd;
+}
+.imageBox img{
+    padding: 15px 15px 0 15px;
+}
+.photo-description{
+    padding: 0 15px 15px 15px;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+    color: #fff;
+    background-color: #f6ad3c;
+}
+.btn:focus,
+.btn:active{
+    outline: none;
+}
+#search_pic_fgdxw{
+    width: 100%;
+}
+
+/*去除轮播图阴影*/
+.carousel-control.left {
+
+    background-image:none;
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+}
+.carousel-control.right {
+    left: auto;
+    right: 0;
+    background-image:none;
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+}
+
+.page-header{
+    margin: 10px 0 10px;
+    border-bottom: 1px solid black;
+}
+#pic_index_news{
+    margin-top: 10px;
+    width: 60px;
+}
+#pic_index_pictures{
+    margin-top: 10px;
+    width: 50px;
+}
+.btn{
+    padding: 6px 9px;
+    border-radius: 25px;
+}
+#a_search{
+    padding: 6px 12px;
+}
+.badge{
+    font-size: 1.2em;
+    padding: 6px 10px;
+    border-radius: 25px;
+}
+a.a_map:focus{
+    outline: none;
+    text-decoration: none;
+    color: black;
+}
+
+#footer .page-header{
+    border-bottom-color: #f5ad40;
+}
+#footer img{
+    color: #535353;
+    width: 30%;
+}
+#footer{
+    margin-bottom: 30px;
+    font-size: .8em;
+}
+#pic_index_cloud{
+    width: 300px;
+    left: 15%;
+    top: 18.5%;
+    position: absolute;
+    z-index: 0;
+}
+#pic_index_map{
+    z-index: 1050;
+    width: 100%;
+}
+#pic_index_wuhan{
+    position: absolute;
+    top:340px;
+    left:515px;
+    z-index: 1051;
+}
+#pic_index_beijing{
+    position: absolute;
+    top:250px;
+    left:543px;
+    z-index: 1051;
+}
+#pic_index_sz{
+    position: absolute;
+    top:423px;
+    left:520px;
+    z-index: 1051;
+}
+#a_cloud{
+    left:17%;
+    top: -20px;
+    position: relative;
+    z-index: 1;
+}
+.modal-dialog{
+    width: 900px;
+    margin: 5px auto;
+}
+
+.popover{
+    max-width: 1600px;
+}
+
+/*作品墙导航栏*/
+.panel-group .panel{
+    border-radius: 25px;
+}
+.panel-heading{
+    border-radius: 25px;
+}
+.nav-pills > li > a {
+    border-radius: 25px;
+}
+.nav-pills > li + li {
+    margin-left: 20px;
+}
+.form-control{
+    border-radius: 25px;
+}
+#li_search{
+    margin-left: 280px;
+}
+
+/*最新动态*/
+.panel-warning >.panel-heading{
+    color: black;
+    background-color: #f9c980;
+}
+.panel-warning{
+    background-color: #f9c980;
+    border-color: #f9c980;
+}
+.panel-danger >.panel-heading{
+    color: black;
+    background-color: #f18f68;
+}
+.panel-danger{
+    background-color: #f18f68;
+    border-color: #f18f68;
+}
+.panel-primary >.panel-heading{
+    color: black;
+    background-color: #ddeff6;
+}
+.panel-primary{
+    background-color: #ddeff6;
+    border-color: #ddeff6;
+}
+.panel-success >.panel-heading{
+    color: black;
+    background-color: #7db286;
+}
+.panel-success{
+    background-color: #7db286;
+    border-color: #7db286;
+}
+.panel-title .glyphicon-chevron-right{
+    float: right;
+}
+.panel a:nth-child(2){
+    color: white;
+}
+.panel a:hover,
+.panel a:focus{
+    text-decoration: none;
+}
+#pic_index_paopao1{
+    opacity: 0;
+    position: absolute;
+    transform: scale(0.7,0.7);
+    z-index: 888;
+    top: 170px;
+    left: 160px;
+    transition: opacity 0.3s ease;
+    -webkit-transition: opacity 0.3s ease;
+}
+#pic_index_paopao2{
+    opacity: 0;
+    position: absolute;
+    transform: scale(0.7,0.7);
+    z-index: 888;
+    top: 215px;
+    left: 25px;
+    transition: opacity 0.3s ease;
+    -webkit-transition: opacity 0.3s ease;
+}
+#pic_index_paopao3{
+    opacity: 0;
+    position: absolute;
+    transform: scale(0.7,0.7);
+    z-index: 888;
+    top: 258px;
+    left: 178px;
+    transition: opacity 0.3s ease;
+    -webkit-transition: opacity 0.3s ease;
+}
+
+/*loading*/
+#index_loading{
+    opacity: 1;
+    top: 0;
+    position: absolute;
+    z-index: 900;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    transition: opacity 2s ease-in-out 5.3s, top 2s ease-in-out 5s;
+    -webkit-transition: opacity 2s ease-in-out 5.3s, top 2s ease-in-out 5s;
+}
+#loading_pic1{
+    opacity: 0;
+    position: absolute;
+    z-index: 910;
+    top: -200px;
+    left: 48%;
+    transition: opacity 1s ease-in-out 0.3s, top 1s ease-in-out 0s;
+    -webkit-transition: opacity 1s ease-in-out 0.3s, top 1s ease-in-out 0s;
+}
+#loading_pic2{
+    opacity: 0;
+    position: absolute;
+    z-index: 910;
+    top: -200px;
+    left: 45.2%;
+    transition: opacity 1s ease-in-out 0.8s, top 1s ease-in-out 0.5s;
+    -webkit-transition: opacity 1s ease-in-out 0.8s, top 1s ease-in-out 0.5s;
+}
+#loading_pic3{
+    opacity: 0;
+    position: absolute;
+    z-index: 910;
+    top: -200px;
+    left: 45.2%;
+    transition: opacity 1s ease-in-out 1.3s, top 1s ease-in-out 1s;
+    -webkit-transition: opacity 1s ease-in-out 1.3s, top 1s ease-in-out 1s;
+}
+#loading_pic4{
+    opacity: 0;
+    position: absolute;
+    z-index: 910;
+    top: -200px;
+    left: 48%;
+    transition: opacity 1s ease-in-out 1.8s, top 1s ease-in-out 1.5s;
+    -webkit-transition: opacity 1s ease-in-out 1.8s, top 1s ease-in-out 1.5s;
+}
+#loading_pic5{
+    opacity: 0;
+    position: absolute;
+    z-index: 910;
+    top: -200px;
+    left: 50.8%;
+    transition: opacity 1s ease-in-out 2.3s, top 1s ease-in-out 2s;
+    -webkit-transition: opacity 1s ease-in-out 2.3s, top 1s ease-in-out 2s;
+}
+#loading_pic6{
+    opacity: 0;
+    position: absolute;
+    z-index: 910;
+    top: -200px;
+    left: 40.5%;
+    transition: opacity 1.2s ease-in-out 3.1s, top 1.2s ease-in-out 2.8s;
+    -webkit-transition: opacity 1.2s ease-in-out 3.1s, top 1.2s ease-in-out 2.8s;
+}

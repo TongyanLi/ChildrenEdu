@@ -1,0 +1,202 @@
+#join{
+    margin-bottom: 70px;
+    position: relative;
+    background-color: rgba(138, 183, 142, 0.67);
+    box-shadow: 10px 10px 50px #bdbdbd;
+}
+/*#navbar-icon{*/
+    /*display: block;*/
+    /*max-width: 100%;*/
+    /*height: 25px;*/
+/*}*/
+#pic_join_leaf{
+    margin-top: 20px;
+    width: 17%;
+}
+#pic_join_method{
+    width: 80%;
+}
+#breakline1{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    opacity: 0;
+    transform: rotateY(-45deg);
+    -webkit-transform: rotateY(-45deg);
+    transition: transform 1s ease-in 2s, opacity 1s ease-in 1.5s;
+    -webkit-transition: transform 1s ease-in 2s, opacity 1s ease-in 1.5s;
+}
+#breakline2{
+    margin-top: -5px;
+    opacity: 0;
+    transform: rotateY(-45deg);
+    -webkit-transform: rotateY(-45deg);
+    transition: transform 1s ease-in 2.4s, opacity 1s ease-in 1.9s;
+    -webkit-transition: transform 1s ease-in 2.4s, opacity 1s ease-in 1.9s;
+}
+#breakline3{
+    margin-top: -10px;
+    opacity: 0;
+    transition: opacity 1s ease-in 5s;
+    -webkit-transition: opacity 1s ease-in 5s;
+}
+#join_form{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-color: rgba(113,185,68,0.67);
+    opacity: 0;
+    transition: opacity 1s ease-out 4s;
+    -webkit-transition: opacity 1s ease-out 4s;
+}
+#form_info .form-group{
+    padding: 20px;
+}
+#inputHowToPath{
+    padding-top: 50px;
+    padding-bottom: 0;
+    opacity: 0;
+    transform: rotateX(-45deg);
+    -webkit-transform: rotateX(-45deg);
+    transition: transform 0.5s ease-in 5.5s, opacity 0.5s ease-in 5s;
+    -webkit-transition: transform 0.5s ease-in 5.25s, opacity 0.5s ease-in 5s;
+}
+#inputPath{
+    padding-top: 5px;
+    opacity: 0;
+    transform: rotateX(-45deg);
+    -webkit-transform: rotateX(-45deg);
+    transition: transform 0.5s ease-in 5.5s, opacity 0.5s ease-in 5s;
+    -webkit-transition: transform 0.5s ease-in 5.25s, opacity 0.5s ease-in 5s;
+}
+#inputDetail{
+    padding: 20px 40px 20px 40px;
+    opacity: 0;
+    transform: rotateX(-45deg);
+    -webkit-transform: rotateX(-45deg);
+    transition: transform 0.5s ease-in 5.5s, opacity 0.5s ease-in 5s;
+    -webkit-transition: transform 0.5s ease-in 5.25s, opacity 0.5s ease-in 5s;
+}
+#inputDetail label{
+    margin-bottom: 20px;
+}
+#form_info label{
+    transform: translateY(50%);
+}
+.btn-lg{
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+#inputHowToPath label{
+    transform: translateY(0%);
+}
+.form-control{
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+label{
+    color: white;
+}
+
+/*入场动画*/
+#fadein_leaf{
+    opacity: 0;
+    transition: opacity 1.5s ease-out;
+    -webkit-transition: opacity 1.5s ease-out;
+}
+#rotate_p1{
+    opacity: 0;
+    transform: rotateY(-45deg);
+    -webkit-transform: rotateY(-45deg);
+    transition: transform 1s ease-in 2.2s, opacity 1s ease-in 1.7s;
+    -webkit-transition: transform 1s ease-in 2.2s, opacity 1s ease-in 1.7s;
+}
+#rotate_h1{
+    opacity: 0;
+    transform: rotateX(-45deg);
+    -webkit-transform: rotateX(-45deg);
+    transition: transform 1s ease-in 3s, opacity 0.7s ease-in 2.5s;
+    -webkit-transition: transform 1s ease-in 3s, opacity 0.7s ease-in 2.5s;
+}
+#rotate_pic1{
+    opacity: 0;
+    transform: rotateX(-45deg);
+    -webkit-transform: rotateX(-45deg);
+    transition: transform 1s ease-in 3.2s, opacity 1s ease-in 2.7s;
+    -webkit-transition: transform 1s ease-in 3.2s, opacity 1s ease-in 2.7s;
+}
+#rotate_h2{
+    opacity: 0;
+    transform: rotateX(-45deg);
+    -webkit-transform: rotateX(-45deg);
+    transition: transform 0.5s ease-in 5.5s, opacity 0.5s ease-in 5s;
+    -webkit-transition: transform 0.5s ease-in 5.25s, opacity 0.5s ease-in 5s;
+}
+#rotate_form1{
+    opacity: 0;
+    transform: rotateX(-45deg);
+    -webkit-transform: rotateX(-45deg);
+    transition: transform 0.5s ease-in 5.5s, opacity 0.5s ease-in 5s;
+    -webkit-transition: transform 0.5s ease-in 5.25s, opacity 0.5s ease-in 5s;
+}
+#rotate_form2{
+    opacity: 0;
+    transform: rotateX(-45deg);
+    -webkit-transform: rotateX(-45deg);
+    transition: transform 0.5s ease-in 5.5s, opacity 0.5s ease-in 5s;
+    -webkit-transition: transform 0.5s ease-in 5.25s, opacity 0.5s ease-in 5s;
+}
+#rotate_form3{
+    opacity: 0;
+    transform: rotateX(-45deg);
+    -webkit-transform: rotateX(-45deg);
+    transition: transform 0.5s ease-in 5.5s, opacity 0.5s ease-in 5s;
+    -webkit-transition: transform 0.5s ease-in 5.25s, opacity 0.5s ease-in 5s;
+}
+#rotate_form4{
+    opacity: 0;
+    transform: rotateX(-45deg);
+    -webkit-transform: rotateX(-45deg);
+    transition: transform 0.5s ease-in 5.5s, opacity 0.5s ease-in 5s;
+    -webkit-transition: transform 0.5s ease-in 5.25s, opacity 0.5s ease-in 5s;
+}
+#rotate_form5{
+    opacity: 0;
+    transform: rotateX(-45deg);
+    -webkit-transform: rotateX(-45deg);
+    transition: transform 0.5s ease-in 5.5s, opacity 0.5s ease-in 5s;
+    -webkit-transition: transform 0.5s ease-in 5.25s, opacity 0.5s ease-in 5s;
+}
+#rotate_form6{
+    opacity: 0;
+    transform: rotateX(-45deg);
+    -webkit-transform: rotateX(-45deg);
+    transition: transform 0.5s ease-in 5.5s, opacity 0.5s ease-in 5s;
+    -webkit-transition: transform 0.5s ease-in 5.25s, opacity 0.5s ease-in 5s;
+}
+#rotate_form7{
+    opacity: 0;
+    transform: rotateX(-45deg);
+    -webkit-transform: rotateX(-45deg);
+    transition: transform 0.5s ease-in 5.5s, opacity 0.5s ease-in 5s;
+    -webkit-transition: transform 0.5s ease-in 5.25s, opacity 0.5s ease-in 5s;
+}
+#rotate_button{
+    opacity: 0;
+    transform: rotateX(-45deg);
+    -webkit-transform: rotateX(-45deg);
+    transition: transform 0.5s ease-in 5.5s, opacity 0.5s ease-in 5s;
+    -webkit-transition: transform 0.5s ease-in 5.25s, opacity 0.5s ease-in 5s;
+}
+
+/*提交按钮*/
+.btn.active.focus, .btn.active:focus,.btn.focus, .btn:active.focus,.btn:active:focus, .btn:focus {
+
+    outline: none;
+}
